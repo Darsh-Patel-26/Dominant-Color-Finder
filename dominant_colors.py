@@ -232,7 +232,7 @@ def main():
         
         with col1:
             st.subheader("📸 Original Image")
-            st.image(uploaded_file, use_column_width=True)
+            st.image(uploaded_file, use_container_width=True)
         
         # Process the image
         with st.spinner("🔍 Analyzing image colors..."):
